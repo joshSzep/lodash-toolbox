@@ -41,6 +41,18 @@ console.log('(chaining function iterator) median', _(dataset).median(function (v
     return value['clicks'];
 }).value());
 
+/** Results:
+    (chaining pluck) sum 110
+    (chaining pluck) mean 22
+    (chaining pluck) median 20
+    (chaining string iterator) sum 110
+    (chaining string iterator) mean 22
+    (chaining string iterator) median 20
+    (chaining function iterator) sum 110
+    (chaining function iterator) mean 22
+    (chaining function iterator) median 20
+**/
+
 ```
 
 ## License ##
