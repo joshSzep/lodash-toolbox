@@ -1,0 +1,37 @@
+{
+  "name": "lodash-toolbox",
+  "description": "Some utility mixins for lodash bundled as an NPM module",
+  "version": "0.0.1",
+  "author": "Josh Szepietowski",
+  "homepage": "https://github.com/joshSzep/lodash-toolbox",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshSzep/lodash-toolbox.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/joshSzep/lodash-toolbox/issues"
+  },
+
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/joshSzep/lodash-toolbox/blob/master/LICENSE"
+  },
+
+  "main": "./index.js",
+
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+
+  "keywords": [
+    "lodash",
+    "utility",
+    "toolbox",
+    "helper",
+    "mean",
+    "median",
+    "sum"
+  ]
+}
