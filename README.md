@@ -12,7 +12,7 @@ Usage Example:
 ```javascript
 
 var _ = require('lodash');
-_.mixin(require('lodash-toolbox));
+_.mixin(require('lodash-toolbox'));
 
 var dataset = [
     { date: '05-05-2014', clicks: 10 },
